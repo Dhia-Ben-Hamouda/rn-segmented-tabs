@@ -16,6 +16,7 @@ import Animated, {
   withTiming,
   WithTimingConfig,
 } from "react-native-reanimated";
+import { ITabOption } from "../types";
 
 function Tab({
   option,
@@ -67,16 +68,6 @@ function Tab({
 }
 
 const DEFAULT_INNER_PADDING = 8;
-
-export interface ITabOption {
-  label: string;
-  value: string;
-}
-
-export interface IGradientCoordinate {
-  x: number;
-  y: number;
-}
 
 interface ITabs {
   options: Array<ITabOption>;
