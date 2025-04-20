@@ -1,0 +1,33 @@
+{
+  "name": "rn-segmented-tabs",
+  "version": "1.0.0",
+  "description": "A customizable and animated select component for React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "npx git-cz",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@types/react": ">=18.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.76.0",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-linear-gradient": ">=2.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.0",
+    "react": "18.0.0",
+    "react-native": "0.76.0",
+    "react-native-reanimated": "3.0.0",
+    "react-native-linear-gradient": "2.8.0"
+  },
+  "keywords": ["tabs", "reanimated", "react-native", "segmented-controls"],
+  "author": "Dhia Ben Hamouda",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dhia-Ben-Hamouda/rn-segmented-tabs.git"
+  }
+}
