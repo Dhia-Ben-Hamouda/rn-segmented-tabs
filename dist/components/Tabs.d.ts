@@ -1,13 +1,6 @@
 import { StyleProp, TextStyle, ViewStyle } from "react-native";
 import { WithTimingConfig } from "react-native-reanimated";
-export interface ITabOption {
-    label: string;
-    value: string;
-}
-export interface IGradientCoordinate {
-    x: number;
-    y: number;
-}
+import { ITabOption } from "../types";
 interface ITabs {
     options: Array<ITabOption>;
     selectedValue: ITabOption;
