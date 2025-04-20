@@ -1,8 +1,8 @@
-# 📚 rn-segmented-tabs
+# rn-segmented-tabs
 
 A customizable, animated tab component for **React Native**, supporting gradients, shared reanimated transitions, and flexible styling.
 
----
+![Alt text](https://github.com/Dhia-Ben-Hamouda/rn-segmented-tabs/blob/main/src/assets/preview.gif)
 
 ## 📦 Installation
 
